@@ -1,0 +1,47 @@
+{
+    "2025-01-30 19:37:20": {
+        "total_requests": 20,
+        "average_latency": 0.008111333847045899,
+        "98th_percentile_latency": 0.015686936378479007,
+        "max_latency": 0.016689777374267578,
+        "status_counts": {
+            "200": 20
+        }
+    },
+    "2025-01-30 19:37:21": {
+        "total_requests": 551,
+        "average_latency": 0.008708352834905774,
+        "98th_percentile_latency": 0.01850295066833496,
+        "max_latency": 0.04165077209472656,
+        "status_counts": {
+            "200": 551
+        }
+    },
+    "2025-01-30 19:37:22": {
+        "total_requests": 572,
+        "average_latency": 0.00858356277425806,
+        "98th_percentile_latency": 0.013071694374084473,
+        "max_latency": 0.017148733139038086,
+        "status_counts": {
+            "200": 572
+        }
+    },
+    "2025-01-30 19:37:23": {
+        "total_requests": 531,
+        "average_latency": 0.009205598166657931,
+        "98th_percentile_latency": 0.016037464141845703,
+        "max_latency": 0.04161691665649414,
+        "status_counts": {
+            "200": 531
+        }
+    },
+    "2025-01-30 19:37:24": {
+        "total_requests": 326,
+        "average_latency": 0.007993050148150672,
+        "98th_percentile_latency": 0.012542963027954102,
+        "max_latency": 0.014262914657592773,
+        "status_counts": {
+            "200": 326
+        }
+    }
+}
