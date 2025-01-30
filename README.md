@@ -1,4 +1,4 @@
-# loading_test
+# FastAPI loading test
  A python FastAPI server and a script for its load testing
 
 To install necessary libraries for python, just run the command below.
