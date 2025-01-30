@@ -1,47 +1,38 @@
 {
-    "2025-01-30 19:37:20": {
-        "total_requests": 20,
-        "average_latency": 0.008111333847045899,
-        "98th_percentile_latency": 0.015686936378479007,
-        "max_latency": 0.016689777374267578,
+    "2025-01-30 20:16:11": {
+        "total_requests": 470,
+        "average_latency": 0.00908776547046418,
+        "98th_percentile_latency": 0.017373285293579104,
+        "max_latency": 0.02632737159729004,
         "status_counts": {
-            "200": 20
+            "200": 470
         }
     },
-    "2025-01-30 19:37:21": {
-        "total_requests": 551,
-        "average_latency": 0.008708352834905774,
-        "98th_percentile_latency": 0.01850295066833496,
-        "max_latency": 0.04165077209472656,
+    "2025-01-30 20:16:12": {
+        "total_requests": 594,
+        "average_latency": 0.00826774020789047,
+        "98th_percentile_latency": 0.015607595443725586,
+        "max_latency": 0.05291128158569336,
         "status_counts": {
-            "200": 551
+            "200": 594
         }
     },
-    "2025-01-30 19:37:22": {
-        "total_requests": 572,
-        "average_latency": 0.00858356277425806,
-        "98th_percentile_latency": 0.013071694374084473,
-        "max_latency": 0.017148733139038086,
+    "2025-01-30 20:16:13": {
+        "total_requests": 582,
+        "average_latency": 0.008490478050258151,
+        "98th_percentile_latency": 0.016372494697570794,
+        "max_latency": 0.04513859748840332,
         "status_counts": {
-            "200": 572
+            "200": 582
         }
     },
-    "2025-01-30 19:37:23": {
-        "total_requests": 531,
-        "average_latency": 0.009205598166657931,
-        "98th_percentile_latency": 0.016037464141845703,
-        "max_latency": 0.04161691665649414,
+    "2025-01-30 20:16:14": {
+        "total_requests": 354,
+        "average_latency": 0.007644798796055681,
+        "98th_percentile_latency": 0.01174335479736328,
+        "max_latency": 0.013817071914672852,
         "status_counts": {
-            "200": 531
-        }
-    },
-    "2025-01-30 19:37:24": {
-        "total_requests": 326,
-        "average_latency": 0.007993050148150672,
-        "98th_percentile_latency": 0.012542963027954102,
-        "max_latency": 0.014262914657592773,
-        "status_counts": {
-            "200": 326
+            "200": 354
         }
     }
 }

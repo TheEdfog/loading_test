@@ -8,14 +8,23 @@ from collections import defaultdict
 from concurrent.futures import ProcessPoolExecutor
 
 class LoadTester:
-    def __init__(self, url, requests_per_second, duration, output_file, number_of_workers):
+    '''
+    url - url to send requests
+    requests_per_second - number of requests sent each second
+    duration - max duration of the test in seconds
+    number_of_workers - number of processes created to send requests in parallel
+    '''
+    def __init__(self, url, requests_per_second, duration, number_of_workers=1):
         self.url = url
         self.requests_per_second = requests_per_second
         self.duration = duration
-        self.output_file = output_file
         self.number_of_workers = number_of_workers
         self.results = []
 
+    '''
+    function to send GET requests.
+    For each request a new connection is established and closed after finishing.
+    '''
     async def send_request(self):
         start_time = time.time()
         parsed_url = urlparse(self.url)
@@ -36,6 +45,7 @@ class LoadTester:
         finally:
             conn.close()
 
+    # used for adjustment of workflow to the defined self.duration (look __init__)
     async def wait_until_next_second():
         current_time = time.time()
         next_second = current_time - current_time % 1 + 1
@@ -45,18 +55,27 @@ class LoadTester:
     async def load_test(self):
         start_time = time.time()
         for second in range(self.duration):
+            # stop sending requests if time is out
             if time.time() > start_time + self.duration:
                 break
-
+            
+            # tasks that send requests
             tasks = []
+
+            # number of requests sent each second by a single worker
             requests_per_worker = int(self.requests_per_second / self.number_of_workers)
+
             for _ in range(requests_per_worker):
+                # create and start a new task
                 task = asyncio.create_task(self.send_request())
                 tasks.append(task)
             await LoadTester.wait_until_next_second()
 
+        # wait till all the tasks are finished
         await asyncio.gather(*tasks)
 
+    # calculate data for test reporting
+    # see write_data for data format details
     def aggregate_results(self):
         aggregated = defaultdict(lambda: {
             'count': 0, 'latency_sum': 0.0, 
@@ -91,25 +110,52 @@ class LoadTester:
         asyncio.run(self.load_test())
         return self.results
 
+    '''
+    Starts processes that run in parallel.
+    The number of processes is defined by self.number_of_workers.
+    '''
     def start(self):
         with ProcessPoolExecutor(max_workers=self.number_of_workers) as executor:
             futures = [executor.submit(self.run_load_test) for _ in range(self.number_of_workers)]
+            
+            # merge data from each process
             for future in futures:
                 self.results.extend(future.result())
 
-    def write_data(self):
+    '''
+    Export report data as json.
+    JSON format:
+    {d1, d2, ..., dn}
+    Format of di:
+        "yyyy-mm-dd hh:mm:ss": { -- time when requests were sent
+        "total_requests": 546,
+        "average_latency": 0.009004701188195756,
+        "98th_percentile_latency": 0.015558409690856936,
+        "max_latency": 0.0346219539642334,
+        "status_counts": { -- might include a status named "error"
+            "200": 546
+        }
+    '''
+    def write_data(self, output_file):
         data = self.aggregate_results()
-        with open(self.output_file, 'w') as f:
+        with open(output_file, 'w') as f:
             json.dump(data, f, indent=4)
 
 if __name__ == '__main__':
     name = 'Maria'
     url = r"http://127.0.0.1:8000/calculate/" + name
-    requests_per_second = 1000
-    duration = 3
-    output_file = 'test_results.json'
-    number_of_workers = 5  # Adjust the number of workers as needed
 
-    load_tester = LoadTester(url, requests_per_second, duration, output_file, number_of_workers)
+    # duration in seconds
+    duration = 3
+
+    # if power for processing is insufficient and time runs out 
+    # (based on variable 'duration') then no new requests will be sent 
+    requests_per_second = 1000
+    number_of_workers = 5
+
+    # path to write data
+    output_file = 'test_results.json'
+
+    load_tester = LoadTester(url, requests_per_second, duration, number_of_workers)
     load_tester.start()
-    load_tester.write_data()
+    load_tester.write_data(output_file)
