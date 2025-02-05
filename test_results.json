@@ -1,38 +1,282 @@
-{
-    "2025-01-30 20:16:11": {
-        "total_requests": 470,
-        "average_latency": 0.00908776547046418,
-        "98th_percentile_latency": 0.017373285293579104,
-        "max_latency": 0.02632737159729004,
-        "status_counts": {
-            "200": 470
-        }
+[
+    {
+        "status": 200,
+        "latency": 2.07273268699646,
+        "send_time": "2025-02-05 15:06:25.914",
+        "request_time": "2025-02-05 15:06:27.987",
+        "response": "{\"message\":\"It worked!\"}"
     },
-    "2025-01-30 20:16:12": {
-        "total_requests": 594,
-        "average_latency": 0.00826774020789047,
-        "98th_percentile_latency": 0.015607595443725586,
-        "max_latency": 0.05291128158569336,
-        "status_counts": {
-            "200": 594
-        }
+    {
+        "status": 200,
+        "latency": 2.0499014854431152,
+        "send_time": "2025-02-05 15:06:25.974",
+        "request_time": "2025-02-05 15:06:28.024",
+        "response": "{\"message\":\"It worked!\"}"
     },
-    "2025-01-30 20:16:13": {
-        "total_requests": 582,
-        "average_latency": 0.008490478050258151,
-        "98th_percentile_latency": 0.016372494697570794,
-        "max_latency": 0.04513859748840332,
-        "status_counts": {
-            "200": 582
-        }
+    {
+        "status": 200,
+        "latency": 2.033987045288086,
+        "send_time": "2025-02-05 15:06:26.025",
+        "request_time": "2025-02-05 15:06:28.059",
+        "response": "{\"message\":\"It worked!\"}"
     },
-    "2025-01-30 20:16:14": {
-        "total_requests": 354,
-        "average_latency": 0.007644798796055681,
-        "98th_percentile_latency": 0.01174335479736328,
-        "max_latency": 0.013817071914672852,
-        "status_counts": {
-            "200": 354
-        }
+    {
+        "status": 200,
+        "latency": 2.033719062805176,
+        "send_time": "2025-02-05 15:06:26.076",
+        "request_time": "2025-02-05 15:06:28.110",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0227181911468506,
+        "send_time": "2025-02-05 15:06:26.127",
+        "request_time": "2025-02-05 15:06:28.149",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0616612434387207,
+        "send_time": "2025-02-05 15:06:26.178",
+        "request_time": "2025-02-05 15:06:28.240",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0475103855133057,
+        "send_time": "2025-02-05 15:06:26.230",
+        "request_time": "2025-02-05 15:06:28.277",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0351510047912598,
+        "send_time": "2025-02-05 15:06:26.282",
+        "request_time": "2025-02-05 15:06:28.317",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0422253608703613,
+        "send_time": "2025-02-05 15:06:26.333",
+        "request_time": "2025-02-05 15:06:28.375",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0398268699645996,
+        "send_time": "2025-02-05 15:06:26.385",
+        "request_time": "2025-02-05 15:06:28.425",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.039201259613037,
+        "send_time": "2025-02-05 15:06:26.436",
+        "request_time": "2025-02-05 15:06:28.475",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.052708387374878,
+        "send_time": "2025-02-05 15:06:26.487",
+        "request_time": "2025-02-05 15:06:28.540",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0558760166168213,
+        "send_time": "2025-02-05 15:06:26.539",
+        "request_time": "2025-02-05 15:06:28.595",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.056872606277466,
+        "send_time": "2025-02-05 15:06:26.590",
+        "request_time": "2025-02-05 15:06:28.647",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.041142225265503,
+        "send_time": "2025-02-05 15:06:26.641",
+        "request_time": "2025-02-05 15:06:28.683",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0315253734588623,
+        "send_time": "2025-02-05 15:06:26.692",
+        "request_time": "2025-02-05 15:06:28.724",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0354487895965576,
+        "send_time": "2025-02-05 15:06:26.744",
+        "request_time": "2025-02-05 15:06:28.780",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.033945322036743,
+        "send_time": "2025-02-05 15:06:26.795",
+        "request_time": "2025-02-05 15:06:28.829",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.051941156387329,
+        "send_time": "2025-02-05 15:06:26.846",
+        "request_time": "2025-02-05 15:06:28.898",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0589282512664795,
+        "send_time": "2025-02-05 15:06:26.897",
+        "request_time": "2025-02-05 15:06:28.956",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.048748731613159,
+        "send_time": "2025-02-05 15:06:26.948",
+        "request_time": "2025-02-05 15:06:28.996",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0328288078308105,
+        "send_time": "2025-02-05 15:06:26.999",
+        "request_time": "2025-02-05 15:06:29.032",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0340421199798584,
+        "send_time": "2025-02-05 15:06:27.050",
+        "request_time": "2025-02-05 15:06:29.084",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.023299217224121,
+        "send_time": "2025-02-05 15:06:27.101",
+        "request_time": "2025-02-05 15:06:29.124",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.040904998779297,
+        "send_time": "2025-02-05 15:06:27.152",
+        "request_time": "2025-02-05 15:06:29.193",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.071321487426758,
+        "send_time": "2025-02-05 15:06:27.203",
+        "request_time": "2025-02-05 15:06:29.274",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0494496822357178,
+        "send_time": "2025-02-05 15:06:27.255",
+        "request_time": "2025-02-05 15:06:29.305",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.039323091506958,
+        "send_time": "2025-02-05 15:06:27.306",
+        "request_time": "2025-02-05 15:06:29.346",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0455613136291504,
+        "send_time": "2025-02-05 15:06:27.358",
+        "request_time": "2025-02-05 15:06:29.403",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0561578273773193,
+        "send_time": "2025-02-05 15:06:27.409",
+        "request_time": "2025-02-05 15:06:29.465",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.039680004119873,
+        "send_time": "2025-02-05 15:06:27.460",
+        "request_time": "2025-02-05 15:06:29.499",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.031104564666748,
+        "send_time": "2025-02-05 15:06:27.512",
+        "request_time": "2025-02-05 15:06:29.543",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.04398512840271,
+        "send_time": "2025-02-05 15:06:27.564",
+        "request_time": "2025-02-05 15:06:29.608",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0709831714630127,
+        "send_time": "2025-02-05 15:06:27.615",
+        "request_time": "2025-02-05 15:06:29.686",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.04087495803833,
+        "send_time": "2025-02-05 15:06:27.667",
+        "request_time": "2025-02-05 15:06:29.708",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.053828477859497,
+        "send_time": "2025-02-05 15:06:27.719",
+        "request_time": "2025-02-05 15:06:29.773",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.0558440685272217,
+        "send_time": "2025-02-05 15:06:27.771",
+        "request_time": "2025-02-05 15:06:29.826",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.038601875305176,
+        "send_time": "2025-02-05 15:06:27.822",
+        "request_time": "2025-02-05 15:06:29.861",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.025681257247925,
+        "send_time": "2025-02-05 15:06:27.874",
+        "request_time": "2025-02-05 15:06:29.899",
+        "response": "{\"message\":\"It worked!\"}"
+    },
+    {
+        "status": 200,
+        "latency": 2.04587721824646,
+        "send_time": "2025-02-05 15:06:27.924",
+        "request_time": "2025-02-05 15:06:29.970",
+        "response": "{\"message\":\"It worked!\"}"
     }
-}
+]
