@@ -1,282 +1,1402 @@
 [
     {
-        "status": 200,
-        "latency": 2.07273268699646,
-        "send_time": "2025-02-05 15:06:25.914",
-        "request_time": "2025-02-05 15:06:27.987",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.058880090713501,
+        "send_time": "2025-02-06 12:47:29.918",
+        "request_time": "2025-02-06 12:47:31.977",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0499014854431152,
-        "send_time": "2025-02-05 15:06:25.974",
-        "request_time": "2025-02-05 15:06:28.024",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.044774293899536,
+        "send_time": "2025-02-06 12:47:29.932",
+        "request_time": "2025-02-06 12:47:31.977",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.033987045288086,
-        "send_time": "2025-02-05 15:06:26.025",
-        "request_time": "2025-02-05 15:06:28.059",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0517756938934326,
+        "send_time": "2025-02-06 12:47:29.925",
+        "request_time": "2025-02-06 12:47:31.977",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.033719062805176,
-        "send_time": "2025-02-05 15:06:26.076",
-        "request_time": "2025-02-05 15:06:28.110",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0481691360473633,
+        "send_time": "2025-02-06 12:47:29.943",
+        "request_time": "2025-02-06 12:47:31.991",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0227181911468506,
-        "send_time": "2025-02-05 15:06:26.127",
-        "request_time": "2025-02-05 15:06:28.149",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.034806728363037,
+        "send_time": "2025-02-06 12:47:29.963",
+        "request_time": "2025-02-06 12:47:31.998",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0616612434387207,
-        "send_time": "2025-02-05 15:06:26.178",
-        "request_time": "2025-02-05 15:06:28.240",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.043715476989746,
+        "send_time": "2025-02-06 12:47:29.954",
+        "request_time": "2025-02-06 12:47:31.998",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0475103855133057,
-        "send_time": "2025-02-05 15:06:26.230",
-        "request_time": "2025-02-05 15:06:28.277",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0276057720184326,
+        "send_time": "2025-02-06 12:47:29.973",
+        "request_time": "2025-02-06 12:47:32.000",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0351510047912598,
-        "send_time": "2025-02-05 15:06:26.282",
-        "request_time": "2025-02-05 15:06:28.317",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.035311460494995,
+        "send_time": "2025-02-06 12:47:29.993",
+        "request_time": "2025-02-06 12:47:32.028",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0422253608703613,
-        "send_time": "2025-02-05 15:06:26.333",
-        "request_time": "2025-02-05 15:06:28.375",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.045660972595215,
+        "send_time": "2025-02-06 12:47:29.982",
+        "request_time": "2025-02-06 12:47:32.028",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0398268699645996,
-        "send_time": "2025-02-05 15:06:26.385",
-        "request_time": "2025-02-05 15:06:28.425",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.021127223968506,
+        "send_time": "2025-02-06 12:47:30.012",
+        "request_time": "2025-02-06 12:47:32.033",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.039201259613037,
-        "send_time": "2025-02-05 15:06:26.436",
-        "request_time": "2025-02-05 15:06:28.475",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0319690704345703,
+        "send_time": "2025-02-06 12:47:30.027",
+        "request_time": "2025-02-06 12:47:32.059",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.052708387374878,
-        "send_time": "2025-02-05 15:06:26.487",
-        "request_time": "2025-02-05 15:06:28.540",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0402166843414307,
+        "send_time": "2025-02-06 12:47:30.019",
+        "request_time": "2025-02-06 12:47:32.059",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0558760166168213,
-        "send_time": "2025-02-05 15:06:26.539",
-        "request_time": "2025-02-05 15:06:28.595",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0567922592163086,
+        "send_time": "2025-02-06 12:47:30.003",
+        "request_time": "2025-02-06 12:47:32.059",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.056872606277466,
-        "send_time": "2025-02-05 15:06:26.590",
-        "request_time": "2025-02-05 15:06:28.647",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.043764114379883,
+        "send_time": "2025-02-06 12:47:30.035",
+        "request_time": "2025-02-06 12:47:32.079",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.041142225265503,
-        "send_time": "2025-02-05 15:06:26.641",
-        "request_time": "2025-02-05 15:06:28.683",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0363731384277344,
+        "send_time": "2025-02-06 12:47:30.042",
+        "request_time": "2025-02-06 12:47:32.079",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0315253734588623,
-        "send_time": "2025-02-05 15:06:26.692",
-        "request_time": "2025-02-05 15:06:28.724",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0426695346832275,
+        "send_time": "2025-02-06 12:47:30.064",
+        "request_time": "2025-02-06 12:47:32.107",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0354487895965576,
-        "send_time": "2025-02-05 15:06:26.744",
-        "request_time": "2025-02-05 15:06:28.780",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0521297454833984,
+        "send_time": "2025-02-06 12:47:30.057",
+        "request_time": "2025-02-06 12:47:32.109",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.033945322036743,
-        "send_time": "2025-02-05 15:06:26.795",
-        "request_time": "2025-02-05 15:06:28.829",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0595600605010986,
+        "send_time": "2025-02-06 12:47:30.049",
+        "request_time": "2025-02-06 12:47:32.109",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.051941156387329,
-        "send_time": "2025-02-05 15:06:26.846",
-        "request_time": "2025-02-05 15:06:28.898",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0519845485687256,
+        "send_time": "2025-02-06 12:47:30.071",
+        "request_time": "2025-02-06 12:47:32.123",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0589282512664795,
-        "send_time": "2025-02-05 15:06:26.897",
-        "request_time": "2025-02-05 15:06:28.956",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0459933280944824,
+        "send_time": "2025-02-06 12:47:30.078",
+        "request_time": "2025-02-06 12:47:32.124",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.048748731613159,
-        "send_time": "2025-02-05 15:06:26.948",
-        "request_time": "2025-02-05 15:06:28.996",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.034459352493286,
+        "send_time": "2025-02-06 12:47:30.107",
+        "request_time": "2025-02-06 12:47:32.142",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0328288078308105,
-        "send_time": "2025-02-05 15:06:26.999",
-        "request_time": "2025-02-05 15:06:29.032",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.041865825653076,
+        "send_time": "2025-02-06 12:47:30.100",
+        "request_time": "2025-02-06 12:47:32.142",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0340421199798584,
-        "send_time": "2025-02-05 15:06:27.050",
-        "request_time": "2025-02-05 15:06:29.084",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0512771606445312,
+        "send_time": "2025-02-06 12:47:30.092",
+        "request_time": "2025-02-06 12:47:32.143",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.023299217224121,
-        "send_time": "2025-02-05 15:06:27.101",
-        "request_time": "2025-02-05 15:06:29.124",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.058555841445923,
+        "send_time": "2025-02-06 12:47:30.085",
+        "request_time": "2025-02-06 12:47:32.144",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.040904998779297,
-        "send_time": "2025-02-05 15:06:27.152",
-        "request_time": "2025-02-05 15:06:29.193",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0343058109283447,
+        "send_time": "2025-02-06 12:47:30.122",
+        "request_time": "2025-02-06 12:47:32.156",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.071321487426758,
-        "send_time": "2025-02-05 15:06:27.203",
-        "request_time": "2025-02-05 15:06:29.274",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0426738262176514,
+        "send_time": "2025-02-06 12:47:30.114",
+        "request_time": "2025-02-06 12:47:32.157",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0494496822357178,
-        "send_time": "2025-02-05 15:06:27.255",
-        "request_time": "2025-02-05 15:06:29.305",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.038499355316162,
+        "send_time": "2025-02-06 12:47:30.137",
+        "request_time": "2025-02-06 12:47:32.176",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.039323091506958,
-        "send_time": "2025-02-05 15:06:27.306",
-        "request_time": "2025-02-05 15:06:29.346",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.04612398147583,
+        "send_time": "2025-02-06 12:47:30.130",
+        "request_time": "2025-02-06 12:47:32.176",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0455613136291504,
-        "send_time": "2025-02-05 15:06:27.358",
-        "request_time": "2025-02-05 15:06:29.403",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0321693420410156,
+        "send_time": "2025-02-06 12:47:30.167",
+        "request_time": "2025-02-06 12:47:32.200",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0561578273773193,
-        "send_time": "2025-02-05 15:06:27.409",
-        "request_time": "2025-02-05 15:06:29.465",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0471277236938477,
+        "send_time": "2025-02-06 12:47:30.152",
+        "request_time": "2025-02-06 12:47:32.200",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.039680004119873,
-        "send_time": "2025-02-05 15:06:27.460",
-        "request_time": "2025-02-05 15:06:29.499",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0545763969421387,
+        "send_time": "2025-02-06 12:47:30.145",
+        "request_time": "2025-02-06 12:47:32.200",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.031104564666748,
-        "send_time": "2025-02-05 15:06:27.512",
-        "request_time": "2025-02-05 15:06:29.543",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0395877361297607,
+        "send_time": "2025-02-06 12:47:30.160",
+        "request_time": "2025-02-06 12:47:32.200",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.04398512840271,
-        "send_time": "2025-02-05 15:06:27.564",
-        "request_time": "2025-02-05 15:06:29.608",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0435922145843506,
+        "send_time": "2025-02-06 12:47:30.183",
+        "request_time": "2025-02-06 12:47:32.226",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0709831714630127,
-        "send_time": "2025-02-05 15:06:27.615",
-        "request_time": "2025-02-05 15:06:29.686",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.052164316177368,
+        "send_time": "2025-02-06 12:47:30.175",
+        "request_time": "2025-02-06 12:47:32.227",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.04087495803833,
-        "send_time": "2025-02-05 15:06:27.667",
-        "request_time": "2025-02-05 15:06:29.708",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.038301706314087,
+        "send_time": "2025-02-06 12:47:30.190",
+        "request_time": "2025-02-06 12:47:32.228",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.053828477859497,
-        "send_time": "2025-02-05 15:06:27.719",
-        "request_time": "2025-02-05 15:06:29.773",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.02829909324646,
+        "send_time": "2025-02-06 12:47:30.212",
+        "request_time": "2025-02-06 12:47:32.241",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.0558440685272217,
-        "send_time": "2025-02-05 15:06:27.771",
-        "request_time": "2025-02-05 15:06:29.826",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.037306070327759,
+        "send_time": "2025-02-06 12:47:30.220",
+        "request_time": "2025-02-06 12:47:32.257",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.038601875305176,
-        "send_time": "2025-02-05 15:06:27.822",
-        "request_time": "2025-02-05 15:06:29.861",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0599703788757324,
+        "send_time": "2025-02-06 12:47:30.197",
+        "request_time": "2025-02-06 12:47:32.257",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.025681257247925,
-        "send_time": "2025-02-05 15:06:27.874",
-        "request_time": "2025-02-05 15:06:29.899",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.052471876144409,
+        "send_time": "2025-02-06 12:47:30.205",
+        "request_time": "2025-02-06 12:47:32.257",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     },
     {
-        "status": 200,
-        "latency": 2.04587721824646,
-        "send_time": "2025-02-05 15:06:27.924",
-        "request_time": "2025-02-05 15:06:29.970",
-        "response": "{\"message\":\"It worked!\"}"
+        "status": 422,
+        "latency": 2.0376975536346436,
+        "send_time": "2025-02-06 12:47:30.227",
+        "request_time": "2025-02-06 12:47:32.265",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.029806613922119,
+        "send_time": "2025-02-06 12:47:30.235",
+        "request_time": "2025-02-06 12:47:32.265",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.023829460144043,
+        "send_time": "2025-02-06 12:47:30.251",
+        "request_time": "2025-02-06 12:47:32.274",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0466153621673584,
+        "send_time": "2025-02-06 12:47:30.258",
+        "request_time": "2025-02-06 12:47:32.305",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.062540054321289,
+        "send_time": "2025-02-06 12:47:30.243",
+        "request_time": "2025-02-06 12:47:32.306",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0553553104400635,
+        "send_time": "2025-02-06 12:47:30.266",
+        "request_time": "2025-02-06 12:47:32.322",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.048004388809204,
+        "send_time": "2025-02-06 12:47:30.274",
+        "request_time": "2025-02-06 12:47:32.322",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.038848876953125,
+        "send_time": "2025-02-06 12:47:30.296",
+        "request_time": "2025-02-06 12:47:32.335",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.054626226425171,
+        "send_time": "2025-02-06 12:47:30.281",
+        "request_time": "2025-02-06 12:47:32.336",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.048356533050537,
+        "send_time": "2025-02-06 12:47:30.288",
+        "request_time": "2025-02-06 12:47:32.337",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.047092914581299,
+        "send_time": "2025-02-06 12:47:30.304",
+        "request_time": "2025-02-06 12:47:32.351",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0329039096832275,
+        "send_time": "2025-02-06 12:47:30.319",
+        "request_time": "2025-02-06 12:47:32.352",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0416195392608643,
+        "send_time": "2025-02-06 12:47:30.311",
+        "request_time": "2025-02-06 12:47:32.353",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0207793712615967,
+        "send_time": "2025-02-06 12:47:30.334",
+        "request_time": "2025-02-06 12:47:32.355",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0278987884521484,
+        "send_time": "2025-02-06 12:47:30.327",
+        "request_time": "2025-02-06 12:47:32.355",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0308830738067627,
+        "send_time": "2025-02-06 12:47:30.349",
+        "request_time": "2025-02-06 12:47:32.380",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.038243532180786,
+        "send_time": "2025-02-06 12:47:30.342",
+        "request_time": "2025-02-06 12:47:32.380",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.029045581817627,
+        "send_time": "2025-02-06 12:47:30.364",
+        "request_time": "2025-02-06 12:47:32.393",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0369300842285156,
+        "send_time": "2025-02-06 12:47:30.357",
+        "request_time": "2025-02-06 12:47:32.394",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0359976291656494,
+        "send_time": "2025-02-06 12:47:30.372",
+        "request_time": "2025-02-06 12:47:32.408",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0292282104492188,
+        "send_time": "2025-02-06 12:47:30.379",
+        "request_time": "2025-02-06 12:47:32.409",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.043886661529541,
+        "send_time": "2025-02-06 12:47:30.387",
+        "request_time": "2025-02-06 12:47:32.431",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0378220081329346,
+        "send_time": "2025-02-06 12:47:30.394",
+        "request_time": "2025-02-06 12:47:32.432",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0304293632507324,
+        "send_time": "2025-02-06 12:47:30.402",
+        "request_time": "2025-02-06 12:47:32.432",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.03715181350708,
+        "send_time": "2025-02-06 12:47:30.410",
+        "request_time": "2025-02-06 12:47:32.447",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0302746295928955,
+        "send_time": "2025-02-06 12:47:30.418",
+        "request_time": "2025-02-06 12:47:32.448",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.031552314758301,
+        "send_time": "2025-02-06 12:47:30.425",
+        "request_time": "2025-02-06 12:47:32.457",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0499041080474854,
+        "send_time": "2025-02-06 12:47:30.432",
+        "request_time": "2025-02-06 12:47:32.482",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0408411026000977,
+        "send_time": "2025-02-06 12:47:30.462",
+        "request_time": "2025-02-06 12:47:32.503",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0684735774993896,
+        "send_time": "2025-02-06 12:47:30.440",
+        "request_time": "2025-02-06 12:47:32.508",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0534045696258545,
+        "send_time": "2025-02-06 12:47:30.455",
+        "request_time": "2025-02-06 12:47:32.508",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.061906576156616,
+        "send_time": "2025-02-06 12:47:30.447",
+        "request_time": "2025-02-06 12:47:32.509",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.040431499481201,
+        "send_time": "2025-02-06 12:47:30.470",
+        "request_time": "2025-02-06 12:47:32.510",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.047262668609619,
+        "send_time": "2025-02-06 12:47:30.477",
+        "request_time": "2025-02-06 12:47:32.525",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0430662631988525,
+        "send_time": "2025-02-06 12:47:30.484",
+        "request_time": "2025-02-06 12:47:32.527",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0404956340789795,
+        "send_time": "2025-02-06 12:47:30.492",
+        "request_time": "2025-02-06 12:47:32.532",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0328776836395264,
+        "send_time": "2025-02-06 12:47:30.500",
+        "request_time": "2025-02-06 12:47:32.532",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0258572101593018,
+        "send_time": "2025-02-06 12:47:30.515",
+        "request_time": "2025-02-06 12:47:32.541",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0337295532226562,
+        "send_time": "2025-02-06 12:47:30.507",
+        "request_time": "2025-02-06 12:47:32.541",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0231144428253174,
+        "send_time": "2025-02-06 12:47:30.530",
+        "request_time": "2025-02-06 12:47:32.553",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.030026435852051,
+        "send_time": "2025-02-06 12:47:30.523",
+        "request_time": "2025-02-06 12:47:32.553",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0338382720947266,
+        "send_time": "2025-02-06 12:47:30.546",
+        "request_time": "2025-02-06 12:47:32.579",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0392751693725586,
+        "send_time": "2025-02-06 12:47:30.553",
+        "request_time": "2025-02-06 12:47:32.593",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0546441078186035,
+        "send_time": "2025-02-06 12:47:30.538",
+        "request_time": "2025-02-06 12:47:32.593",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.043426513671875,
+        "send_time": "2025-02-06 12:47:30.561",
+        "request_time": "2025-02-06 12:47:32.604",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0346977710723877,
+        "send_time": "2025-02-06 12:47:30.570",
+        "request_time": "2025-02-06 12:47:32.604",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0788960456848145,
+        "send_time": "2025-02-06 12:47:30.585",
+        "request_time": "2025-02-06 12:47:32.664",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.088846445083618,
+        "send_time": "2025-02-06 12:47:30.577",
+        "request_time": "2025-02-06 12:47:32.666",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.076836109161377,
+        "send_time": "2025-02-06 12:47:30.593",
+        "request_time": "2025-02-06 12:47:32.669",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0717453956604004,
+        "send_time": "2025-02-06 12:47:30.600",
+        "request_time": "2025-02-06 12:47:32.672",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0621931552886963,
+        "send_time": "2025-02-06 12:47:30.615",
+        "request_time": "2025-02-06 12:47:32.677",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.072023630142212,
+        "send_time": "2025-02-06 12:47:30.607",
+        "request_time": "2025-02-06 12:47:32.679",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0732669830322266,
+        "send_time": "2025-02-06 12:47:30.623",
+        "request_time": "2025-02-06 12:47:32.696",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0633087158203125,
+        "send_time": "2025-02-06 12:47:30.637",
+        "request_time": "2025-02-06 12:47:32.701",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.070646286010742,
+        "send_time": "2025-02-06 12:47:30.630",
+        "request_time": "2025-02-06 12:47:32.701",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0573136806488037,
+        "send_time": "2025-02-06 12:47:30.646",
+        "request_time": "2025-02-06 12:47:32.703",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.050894260406494,
+        "send_time": "2025-02-06 12:47:30.653",
+        "request_time": "2025-02-06 12:47:32.704",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0366199016571045,
+        "send_time": "2025-02-06 12:47:30.668",
+        "request_time": "2025-02-06 12:47:32.705",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0345308780670166,
+        "send_time": "2025-02-06 12:47:30.683",
+        "request_time": "2025-02-06 12:47:32.717",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0573272705078125,
+        "send_time": "2025-02-06 12:47:30.661",
+        "request_time": "2025-02-06 12:47:32.718",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.042668342590332,
+        "send_time": "2025-02-06 12:47:30.676",
+        "request_time": "2025-02-06 12:47:32.718",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0421650409698486,
+        "send_time": "2025-02-06 12:47:30.690",
+        "request_time": "2025-02-06 12:47:32.732",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0269358158111572,
+        "send_time": "2025-02-06 12:47:30.705",
+        "request_time": "2025-02-06 12:47:32.732",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0328691005706787,
+        "send_time": "2025-02-06 12:47:30.712",
+        "request_time": "2025-02-06 12:47:32.745",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.026338815689087,
+        "send_time": "2025-02-06 12:47:30.720",
+        "request_time": "2025-02-06 12:47:32.746",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.049656629562378,
+        "send_time": "2025-02-06 12:47:30.697",
+        "request_time": "2025-02-06 12:47:32.747",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.049575090408325,
+        "send_time": "2025-02-06 12:47:30.727",
+        "request_time": "2025-02-06 12:47:32.777",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0342113971710205,
+        "send_time": "2025-02-06 12:47:30.742",
+        "request_time": "2025-02-06 12:47:32.777",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0418460369110107,
+        "send_time": "2025-02-06 12:47:30.735",
+        "request_time": "2025-02-06 12:47:32.777",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0411758422851562,
+        "send_time": "2025-02-06 12:47:30.757",
+        "request_time": "2025-02-06 12:47:32.798",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0560641288757324,
+        "send_time": "2025-02-06 12:47:30.779",
+        "request_time": "2025-02-06 12:47:32.835",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.084824323654175,
+        "send_time": "2025-02-06 12:47:30.750",
+        "request_time": "2025-02-06 12:47:32.835",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0512304306030273,
+        "send_time": "2025-02-06 12:47:30.786",
+        "request_time": "2025-02-06 12:47:32.837",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0746562480926514,
+        "send_time": "2025-02-06 12:47:30.764",
+        "request_time": "2025-02-06 12:47:32.839",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0671842098236084,
+        "send_time": "2025-02-06 12:47:30.772",
+        "request_time": "2025-02-06 12:47:32.839",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0380895137786865,
+        "send_time": "2025-02-06 12:47:30.808",
+        "request_time": "2025-02-06 12:47:32.846",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.054227828979492,
+        "send_time": "2025-02-06 12:47:30.793",
+        "request_time": "2025-02-06 12:47:32.847",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0495917797088623,
+        "send_time": "2025-02-06 12:47:30.800",
+        "request_time": "2025-02-06 12:47:32.850",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.041668176651001,
+        "send_time": "2025-02-06 12:47:30.815",
+        "request_time": "2025-02-06 12:47:32.857",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.034423351287842,
+        "send_time": "2025-02-06 12:47:30.823",
+        "request_time": "2025-02-06 12:47:32.857",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0340611934661865,
+        "send_time": "2025-02-06 12:47:30.830",
+        "request_time": "2025-02-06 12:47:32.864",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.03965163230896,
+        "send_time": "2025-02-06 12:47:30.837",
+        "request_time": "2025-02-06 12:47:32.877",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0317540168762207,
+        "send_time": "2025-02-06 12:47:30.845",
+        "request_time": "2025-02-06 12:47:32.877",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0239810943603516,
+        "send_time": "2025-02-06 12:47:30.853",
+        "request_time": "2025-02-06 12:47:32.877",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.059159994125366,
+        "send_time": "2025-02-06 12:47:30.859",
+        "request_time": "2025-02-06 12:47:32.918",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0524160861968994,
+        "send_time": "2025-02-06 12:47:30.867",
+        "request_time": "2025-02-06 12:47:32.919",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.039210319519043,
+        "send_time": "2025-02-06 12:47:30.888",
+        "request_time": "2025-02-06 12:47:32.927",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.054471969604492,
+        "send_time": "2025-02-06 12:47:30.874",
+        "request_time": "2025-02-06 12:47:32.928",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.048447847366333,
+        "send_time": "2025-02-06 12:47:30.881",
+        "request_time": "2025-02-06 12:47:32.929",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.041182041168213,
+        "send_time": "2025-02-06 12:47:30.895",
+        "request_time": "2025-02-06 12:47:32.936",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0350425243377686,
+        "send_time": "2025-02-06 12:47:30.902",
+        "request_time": "2025-02-06 12:47:32.937",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.041271448135376,
+        "send_time": "2025-02-06 12:47:30.909",
+        "request_time": "2025-02-06 12:47:32.950",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.034536600112915,
+        "send_time": "2025-02-06 12:47:30.916",
+        "request_time": "2025-02-06 12:47:32.951",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0330560207366943,
+        "send_time": "2025-02-06 12:47:30.932",
+        "request_time": "2025-02-06 12:47:32.965",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0418357849121094,
+        "send_time": "2025-02-06 12:47:30.924",
+        "request_time": "2025-02-06 12:47:32.966",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.047213554382324,
+        "send_time": "2025-02-06 12:47:30.947",
+        "request_time": "2025-02-06 12:47:32.994",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.054486036300659,
+        "send_time": "2025-02-06 12:47:30.940",
+        "request_time": "2025-02-06 12:47:32.994",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.049736499786377,
+        "send_time": "2025-02-06 12:47:30.962",
+        "request_time": "2025-02-06 12:47:33.012",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.035202980041504,
+        "send_time": "2025-02-06 12:47:30.977",
+        "request_time": "2025-02-06 12:47:33.012",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.057966470718384,
+        "send_time": "2025-02-06 12:47:30.955",
+        "request_time": "2025-02-06 12:47:33.013",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0446770191192627,
+        "send_time": "2025-02-06 12:47:30.969",
+        "request_time": "2025-02-06 12:47:33.014",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.040757894515991,
+        "send_time": "2025-02-06 12:47:30.984",
+        "request_time": "2025-02-06 12:47:33.025",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0343289375305176,
+        "send_time": "2025-02-06 12:47:30.992",
+        "request_time": "2025-02-06 12:47:33.026",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0381011962890625,
+        "send_time": "2025-02-06 12:47:30.999",
+        "request_time": "2025-02-06 12:47:33.037",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.023344039916992,
+        "send_time": "2025-02-06 12:47:31.014",
+        "request_time": "2025-02-06 12:47:33.037",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0307364463806152,
+        "send_time": "2025-02-06 12:47:31.007",
+        "request_time": "2025-02-06 12:47:33.037",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.027784585952759,
+        "send_time": "2025-02-06 12:47:31.029",
+        "request_time": "2025-02-06 12:47:33.056",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.021989583969116,
+        "send_time": "2025-02-06 12:47:31.036",
+        "request_time": "2025-02-06 12:47:33.058",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.036322593688965,
+        "send_time": "2025-02-06 12:47:31.022",
+        "request_time": "2025-02-06 12:47:33.058",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0646934509277344,
+        "send_time": "2025-02-06 12:47:31.044",
+        "request_time": "2025-02-06 12:47:33.108",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.046684503555298,
+        "send_time": "2025-02-06 12:47:31.066",
+        "request_time": "2025-02-06 12:47:33.112",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.055307388305664,
+        "send_time": "2025-02-06 12:47:31.058",
+        "request_time": "2025-02-06 12:47:33.113",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.037212610244751,
+        "send_time": "2025-02-06 12:47:31.080",
+        "request_time": "2025-02-06 12:47:33.117",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.046215534210205,
+        "send_time": "2025-02-06 12:47:31.073",
+        "request_time": "2025-02-06 12:47:33.119",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0695316791534424,
+        "send_time": "2025-02-06 12:47:31.051",
+        "request_time": "2025-02-06 12:47:33.121",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0512757301330566,
+        "send_time": "2025-02-06 12:47:31.095",
+        "request_time": "2025-02-06 12:47:33.146",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.085150957107544,
+        "send_time": "2025-02-06 12:47:31.103",
+        "request_time": "2025-02-06 12:47:33.188",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0574724674224854,
+        "send_time": "2025-02-06 12:47:31.132",
+        "request_time": "2025-02-06 12:47:33.190",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0798192024230957,
+        "send_time": "2025-02-06 12:47:31.110",
+        "request_time": "2025-02-06 12:47:33.190",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.1122937202453613,
+        "send_time": "2025-02-06 12:47:31.087",
+        "request_time": "2025-02-06 12:47:33.199",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0444681644439697,
+        "send_time": "2025-02-06 12:47:31.156",
+        "request_time": "2025-02-06 12:47:33.200",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.079470634460449,
+        "send_time": "2025-02-06 12:47:31.125",
+        "request_time": "2025-02-06 12:47:33.204",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0878913402557373,
+        "send_time": "2025-02-06 12:47:31.118",
+        "request_time": "2025-02-06 12:47:33.205",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0582478046417236,
+        "send_time": "2025-02-06 12:47:31.149",
+        "request_time": "2025-02-06 12:47:33.207",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0696873664855957,
+        "send_time": "2025-02-06 12:47:31.142",
+        "request_time": "2025-02-06 12:47:33.211",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0489981174468994,
+        "send_time": "2025-02-06 12:47:31.163",
+        "request_time": "2025-02-06 12:47:33.212",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.045410633087158,
+        "send_time": "2025-02-06 12:47:31.171",
+        "request_time": "2025-02-06 12:47:33.216",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0517044067382812,
+        "send_time": "2025-02-06 12:47:31.178",
+        "request_time": "2025-02-06 12:47:33.229",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0458428859710693,
+        "send_time": "2025-02-06 12:47:31.185",
+        "request_time": "2025-02-06 12:47:33.230",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0432870388031006,
+        "send_time": "2025-02-06 12:47:31.199",
+        "request_time": "2025-02-06 12:47:33.243",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0658490657806396,
+        "send_time": "2025-02-06 12:47:31.192",
+        "request_time": "2025-02-06 12:47:33.258",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.037914752960205,
+        "send_time": "2025-02-06 12:47:31.220",
+        "request_time": "2025-02-06 12:47:33.258",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.044705867767334,
+        "send_time": "2025-02-06 12:47:31.213",
+        "request_time": "2025-02-06 12:47:33.258",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0515968799591064,
+        "send_time": "2025-02-06 12:47:31.206",
+        "request_time": "2025-02-06 12:47:33.258",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0390219688415527,
+        "send_time": "2025-02-06 12:47:31.228",
+        "request_time": "2025-02-06 12:47:33.267",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.033193349838257,
+        "send_time": "2025-02-06 12:47:31.245",
+        "request_time": "2025-02-06 12:47:33.278",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0279159545898438,
+        "send_time": "2025-02-06 12:47:31.252",
+        "request_time": "2025-02-06 12:47:33.280",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.04323148727417,
+        "send_time": "2025-02-06 12:47:31.237",
+        "request_time": "2025-02-06 12:47:33.280",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0629594326019287,
+        "send_time": "2025-02-06 12:47:31.260",
+        "request_time": "2025-02-06 12:47:33.323",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0409936904907227,
+        "send_time": "2025-02-06 12:47:31.283",
+        "request_time": "2025-02-06 12:47:33.324",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0376927852630615,
+        "send_time": "2025-02-06 12:47:31.299",
+        "request_time": "2025-02-06 12:47:33.336",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.066751480102539,
+        "send_time": "2025-02-06 12:47:31.275",
+        "request_time": "2025-02-06 12:47:33.342",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0524537563323975,
+        "send_time": "2025-02-06 12:47:31.291",
+        "request_time": "2025-02-06 12:47:33.343",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.078033685684204,
+        "send_time": "2025-02-06 12:47:31.267",
+        "request_time": "2025-02-06 12:47:33.345",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.045839548110962,
+        "send_time": "2025-02-06 12:47:31.305",
+        "request_time": "2025-02-06 12:47:33.351",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0455992221832275,
+        "send_time": "2025-02-06 12:47:31.313",
+        "request_time": "2025-02-06 12:47:33.358",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.031155824661255,
+        "send_time": "2025-02-06 12:47:31.328",
+        "request_time": "2025-02-06 12:47:33.359",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.039236545562744,
+        "send_time": "2025-02-06 12:47:31.320",
+        "request_time": "2025-02-06 12:47:33.359",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.026899576187134,
+        "send_time": "2025-02-06 12:47:31.344",
+        "request_time": "2025-02-06 12:47:33.371",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0346274375915527,
+        "send_time": "2025-02-06 12:47:31.336",
+        "request_time": "2025-02-06 12:47:33.371",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0264933109283447,
+        "send_time": "2025-02-06 12:47:31.358",
+        "request_time": "2025-02-06 12:47:33.385",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0410399436950684,
+        "send_time": "2025-02-06 12:47:31.351",
+        "request_time": "2025-02-06 12:47:33.392",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0703749656677246,
+        "send_time": "2025-02-06 12:47:31.386",
+        "request_time": "2025-02-06 12:47:33.457",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.093724489212036,
+        "send_time": "2025-02-06 12:47:31.365",
+        "request_time": "2025-02-06 12:47:33.459",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.090200424194336,
+        "send_time": "2025-02-06 12:47:31.373",
+        "request_time": "2025-02-06 12:47:33.463",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0894691944122314,
+        "send_time": "2025-02-06 12:47:31.379",
+        "request_time": "2025-02-06 12:47:33.469",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.076866388320923,
+        "send_time": "2025-02-06 12:47:31.394",
+        "request_time": "2025-02-06 12:47:33.471",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0709166526794434,
+        "send_time": "2025-02-06 12:47:31.401",
+        "request_time": "2025-02-06 12:47:33.472",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.064908027648926,
+        "send_time": "2025-02-06 12:47:31.408",
+        "request_time": "2025-02-06 12:47:33.473",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.0536704063415527,
+        "send_time": "2025-02-06 12:47:31.422",
+        "request_time": "2025-02-06 12:47:33.476",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
+    },
+    {
+        "status": 422,
+        "latency": 2.060742139816284,
+        "send_time": "2025-02-06 12:47:31.415",
+        "request_time": "2025-02-06 12:47:33.476",
+        "response": "{\"detail\":[{\"type\":\"model_attributes_type\",\"loc\":[\"body\"],\"msg\":\"Input should be a valid dictionary or object to extract fields from\",\"input\":\"{\\n    \\\"name\\\": \\\"Maria\\\"\\n}\"}]}"
     }
 ]

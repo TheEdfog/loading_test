@@ -7,6 +7,11 @@ from urllib.parse import urlparse
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, wait
 from datetime import datetime
+from multiprocessing import Process, Lock, Manager
+import _winapi
+import multiprocessing.spawn
+
+multiprocessing.spawn.set_executable(_winapi.GetModuleFileName(0))
 
 class LoadTester:
     '''
@@ -22,8 +27,8 @@ class LoadTester:
         self.number_of_workers = number_of_workers
         self.headers = headers
         self.body = body.encode('utf-8')  # Ensure body is bytes
-        self.results = []
-        self.lock = threading.Lock()  # Lock for thread-safe results collection
+        self.manager = Manager()
+        self.results = self.manager.list()
 
     '''
     Function to send POST requests.
@@ -62,40 +67,17 @@ class LoadTester:
             result = {
                 'status': 'error',
                 'latency': latency,
-                'error': str(e),
                 'send_time': start_time,
-                'request_time': request_time
+                'request_time': request_time,
+                'response': str(e)
             }
             self.results.append(result)
         finally:
             conn.close()
 
-    def load_test(self):
-        headers = self.headers
-        body = self.body
-        total_requests = self.requests_per_second * self.duration
+    def worker(self):
         interval = 1.0 / self.requests_per_second
-
-        def worker():
-            for _ in range(total_requests):
-                start_time = time.time()
-                asyncio.run(self.send_request(headers, body))
-                asyncio.sleep(interval)
-
-        # with ThreadPoolExecutor(max_workers=self.number_of_workers) as executor:
-        #     futures = [executor.submit(worker) for _ in range(1)]
-        #     wait(futures)  # Wait for all threads to complete
-        # s = sched.scheduler(time.time, asyncio.sleep)
-        # for jj in range(total_requests):
-        #     s.enter(interval * jj, 1, asyncio.run(self.send_request(headers, body)))
-        
-        def worker():
-            for _ in range(self.number_of_requests // self.duration):
-                start_time = time.time()
-                thread = threading.Thread(target=self.send_request)
-                thread.start()
-                time_to_sleep = max(0, interval - (time.time() - start_time))
-                time.sleep(time_to_sleep)
+        total_requests = self.requests_per_second * self.duration
 
         threads = [threading.Thread(target=self.send_request) for _ in range(total_requests)]
 
@@ -105,6 +87,25 @@ class LoadTester:
         
         for thread in threads:
             thread.join()
+
+    def load_test(self):
+        self.worker()
+
+        processes = []
+
+        delay = 1.0 / self.number_of_workers
+
+        for i in range(self.number_of_workers):
+            lock = self.manager.Lock()
+            process = Process(target=self.worker)
+            processes.append(process)
+            process.start()
+            time.sleep(delay)
+
+        for process in processes:
+            process.join()
+        
+        pass
 
     def aggregate_results(self):
         aggregated = defaultdict(lambda: {
@@ -137,13 +138,13 @@ class LoadTester:
     def start(self):
         self.load_test()
         # Wait until the duration is over before writing the file
-        time.sleep(self.duration)
+        # time.sleep(self.duration)
 
     def write_aggregated_data(self, output_file):
         data = self.aggregate_results()
         with open(output_file, 'w') as f:
             json.dump(data, f, indent=4)
-    
+
     def write_result_data(self, output_file):
         data = self.results
         with open(output_file, 'w') as f:
@@ -155,17 +156,18 @@ if __name__ == '__main__':
     
     headers = {'Content-type': 'application/json'}
     
-    data = {"name": name}
-    body = json.dumps(data)
+    with open('body_data.json', 'r', encoding='utf-8') as f:
+        data = f.read()
+        body = json.dumps(data)
 
     # Duration in seconds
-    duration = 2
+    duration = 1
 
     # Requests per second
-    requests_per_second = 20
+    requests_per_second = 200
 
     # Number of worker threads
-    number_of_workers = requests_per_second
+    number_of_workers = 3
 
     # Path to write data
     output_file = 'test_results.json'
